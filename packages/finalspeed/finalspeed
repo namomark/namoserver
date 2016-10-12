@@ -1,0 +1,6 @@
+#! /bin/bash
+
+wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/finalspeed/master/install_fs.sh && bash install_fs.sh
+
+systemctl start finalspeed.service
+systemctl enable finalspeed
